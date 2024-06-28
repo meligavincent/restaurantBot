@@ -1,0 +1,26 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: Express thank
+  steps:
+  - intent: thank
+  - action: utter_thank
+
+- story: order my okok
+  steps:
+  - intent: order_food
+  - action: action_order_food
+  - intent: inform_food
+  - action: action_confirm_order
+
+
+
+- story: interactive_story_1
+  steps:
+  - intent: nlu_fallback

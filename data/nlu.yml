@@ -1,0 +1,87 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: thank
+  examples: |
+    - thanks
+    - thank you
+    - appreciate it
+    - many thanks
+    - thanks a lot
+    - thanks so much
+    - thanks for everything
+    - thanks for your help
+
+- intent: order_okok
+  examples: |
+   - I want to order an [Okok](food) dishes
+   - I want to eat [Okok](food)
+   - can i get [okok](food)
+   - do me [okok](food)
+   - what about [okok](food)
+
+- intent: order_food
+  examples: |
+    - i zqnt to order q food
+    - i want to order a food
+    - can i get some food, please
+    - Let's order some food
+
+- intent: inform_food
+  examples: |
+    - [Okok](food)
+    - [Eru](food)
+    - [Ndolè](food)
+    - [Fufu](food)
+    - [Achu soup](food)
+    - [Colocynth](food)
+    - [Mbanga soup](food)
+    - [Egusi pudding soup](food)
+    - [Poulet DG](food)
+    - [Spaguetti sauté](food)
+    - [Oeuf Spaguetti](food)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- intent: nlu_fallback
+  examples: |
+    - I'm the best
